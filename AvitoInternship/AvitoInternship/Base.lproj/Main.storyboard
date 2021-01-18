@@ -35,11 +35,30 @@
                                     <constraint firstAttribute="bottom" secondItem="5OJ-KQ-v1f" secondAttribute="bottom" constant="8" id="z2F-rG-OtT"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coE-Ha-7bT">
+                                <rect key="frame" x="16" y="804" width="382" height="58"/>
+                                <color key="backgroundColor" red="0.0035417373290000001" green="0.6757699251" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="fZ6-RU-8bl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Выбрать">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="coE-Ha-7bT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3Qu-Af-dGa"/>
                             <constraint firstItem="gSq-XL-RaX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3S5-WC-fqv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="coE-Ha-7bT" secondAttribute="trailing" constant="16" id="8Xt-x4-Zlj"/>
                             <constraint firstItem="gSq-XL-RaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aDv-I5-I39"/>
+                            <constraint firstItem="coE-Ha-7bT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="d4c-nL-n0t"/>
                             <constraint firstItem="gSq-XL-RaX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uDd-n1-zSm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
