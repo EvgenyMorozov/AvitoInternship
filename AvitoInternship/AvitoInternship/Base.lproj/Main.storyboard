@@ -18,7 +18,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSq-XL-RaX" userLabel="topBarView">
                                 <rect key="frame" x="0.0" y="44" width="414" height="48"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close" translatesAutoresizingMaskIntoConstraints="NO" id="5OJ-KQ-v1f" userLabel="closeImageView">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CloseIconTemplate" translatesAutoresizingMaskIntoConstraints="NO" id="5OJ-KQ-v1f" userLabel="closeImageView">
                                         <rect key="frame" x="16" y="8" width="32" height="32"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -73,6 +73,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="close" width="16" height="16"/>
+        <image name="CloseIconTemplate" width="24" height="24"/>
     </resources>
 </document>
